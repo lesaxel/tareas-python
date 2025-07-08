@@ -31,10 +31,10 @@ class Rectangulo(Forma):
 
 if __name__ == "__main__":
     formas = [
-        Circulo(5),
-        Rectangulo(4, 6),
+        Circulo(8),
+        Rectangulo(2, 9),
         Circulo(7.2),
-        Rectangulo(2.5, 3.8)]
+        Rectangulo(4.5, 7.8)]
     
     for forma in formas:
         print(f"Tipo de forma: {type(forma).__name__}")
